@@ -207,8 +207,8 @@ function getCalculate(input)
 	app.controller("testController", function($scope, SimpleCalculatorController){
         var input = [];
         input['operation'] = Object.keys(OperationTypeEnum)[0];
-        input['x'] = 153.012118832214;
-        input['y'] = 153.012118832214;
+        input['x'] = 135.581870111908;
+        input['y'] = 135.581870111908;
 
 
 		var result = SimpleCalculatorController.getCalculate(input);
